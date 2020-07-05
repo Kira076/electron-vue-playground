@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Home from '@/components/Home'
+import Canvas from '@/components/Canvas'
+
 Vue.use(Router)
 
 export default new Router({
@@ -8,7 +11,12 @@ export default new Router({
     {
       path: '/',
       name: 'home-page',
-      component: require('@/components/Home').default
+      component: Home
+    },
+    {
+      path: '/canvas',
+      name: 'main-canvas',
+      component: Canvas
     },
     {
       path: '*',

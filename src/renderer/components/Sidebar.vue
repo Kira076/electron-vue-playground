@@ -1,10 +1,10 @@
 <template>
   <div>
-    <b-sidebar id="sidebar-1" title="Sidebar">
+    <b-sidebar id="sidebar-1" title="Navigation">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm">
-            <b-button>View Canvas</b-button>
+            <b-button to="canvas">View Canvas</b-button>
           </div>
         </div>
       </div>
